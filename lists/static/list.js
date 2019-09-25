@@ -5,3 +5,4 @@ var initialize = function () {
     $('.has-error').hide();
   });
 };
+
