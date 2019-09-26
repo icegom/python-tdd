@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
+    'functional_tests',
     'lists',
 ]
 
@@ -137,6 +138,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+'''
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -153,4 +155,4 @@ LOGGING = {
     },
     'root': {'level': 'INFO'},
 }
-
+'''
